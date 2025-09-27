@@ -14,6 +14,7 @@ Project này sử dụng **Flask** để xây dựng web app và **Google GenAI 
 ---
 
 ## 📂 Cấu trúc thư mục
+```
 Project_AI_Nutrition_Coach/
 │
 ├── app.py # Flask 
@@ -27,4 +28,34 @@ Project_AI_Nutrition_Coach/
 │ └── style.css # File CSS cho giao diện
 │
 └── image/
-└── Garlic-Herbed-Grilled-Tuna-Steak.png # Ảnh mẫu 
+└── Garlic-Herbed-Grilled-Tuna-Steak.png # Ảnh mẫu
+```
+## ⚙️ Cài đặt & Chạy
+
+### 1️⃣ Clone repo
+```bash
+git clone https://github.com/SimpleAI04/Project_AI_Nutrition_Coach.git
+cd Project_AI_Nutrition_Coach
+```
+### 2️⃣ Tạo môi trường ảo & cài đặt dependencies
+```bash
+python -m venv venv
+source venv/bin/activate   # trên Linux/Mac
+venv\Scripts\activate      # trên Windows
+pip install -r requirements.txt
+```
+### 3️⃣ Cấu hình API key
+```bash
+GOOGLE_API_KEY=your_api_key_here
+```
+### 4️⃣ Chạy ứng dụng
+```bash
+python app.py
+```
+- Truy cập ứng dụng tại: 👉 http://127.0.0.1:5000
+
+### 🛠️ Công nghệ sử dụng
+- Flask – Web framework Python.
+- Google GenAI – API AI phân tích hình ảnh & văn bản.
+- dotenv – Quản lý biến môi trường.
+- Pillow – Xử lý ảnh.
