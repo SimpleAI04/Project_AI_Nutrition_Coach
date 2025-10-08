@@ -18,7 +18,6 @@ Project này sử dụng **Flask** để xây dựng web app và **Google GenAI 
 Project_AI_Nutrition_Coach/
 │
 ├── app.py # Flask 
-├── .env 
 ├── README.md # Tài liệu dự án
 │
 ├── templates/
