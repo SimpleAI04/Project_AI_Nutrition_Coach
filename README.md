@@ -43,11 +43,7 @@ source venv/bin/activate   # trên Linux/Mac
 venv\Scripts\activate      # trên Windows
 pip install -r requirements.txt
 ```
-### 3️⃣ Cấu hình API key
-```bash
-GOOGLE_API_KEY=your_api_key_here
-```
-### 4️⃣ Chạy ứng dụng
+### 3️⃣ Chạy ứng dụng
 ```bash
 python app.py
 ```
